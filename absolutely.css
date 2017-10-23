@@ -3,7 +3,6 @@ body {
 	font-family : Tahoma;
 	font-size : 14px;
 	background-color : black;
-	/* toe te voegen */
 }
 .all {
 	text-align : left;
@@ -14,3 +13,72 @@ body {
 	border : 4px solid red;
 }
 
+#screwdriver {
+position: absolute;
+right:364px;
+top: 220px;
+}
+
+#saw {
+position: absolute;
+left: 330px;
+top: 200px;
+}
+
+#toolbox {
+position: absolute;
+right: 620px;
+top: 300px;
+}
+#title {
+	position: absolute;
+	bottom: 554px;
+}
+
+#pincers {
+position: absolute;
+right: 364px;
+top: 320px;
+}
+
+#hammer {
+	position: absolute;
+	right: 510px;
+	top: 47px;
+}
+h1 {
+	background-color: white;
+	opacity: 0.5;
+	margin: 0px;
+}
+p {
+	background-color: white;
+	opacity: 0.5;
+	margin: 0px;
+}
+
+.text{
+margin-top: 400px;
+background-color: white;
+opacity: 0.7;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
