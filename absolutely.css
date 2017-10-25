@@ -19,10 +19,22 @@ right:364px;
 top: 250px;
 }
 
+#screwdriver:hover {
+position: absolute;
+right:359px;
+top: 245px;
+}
+
 #saw {
 position: absolute;
 left: 330px;
 top: 200px;
+}
+
+#saw:hover {
+position: absolute;
+left: 325px;
+top: 195px;
 }
 
 #toolbox {
@@ -30,9 +42,15 @@ position: absolute;
 right: 640px;
 top: 340px;
 }
+
 #title {
 	position: absolute;
 	bottom: 554px;
+}
+
+#title:hover {
+	position: absolute;
+	bottom: 550px;
 }
 
 #pincers {
@@ -40,12 +58,28 @@ position: absolute;
 right: 364px;
 top: 350px;
 }
+#pincers:hover {
+	position:absolute;
+	right: 355px;
+	top: 345px;
+}
 
 #hammer {
 	position: absolute;
 	right: 510px;
 	top: 47px;
 }
+
+#hammer:hover {
+	position: absolute;
+	right: 505px;
+	top: 42px;
+}
+
+#kleur {
+	color: blue;
+}
+
 h1 {
 	background-color: white;
 	opacity: 1.2;
@@ -53,7 +87,7 @@ h1 {
 }
 p {
 	background-color: white;
-	opacity: 1.2;
+	opacity: 1.0;
 	margin: 0px;
 }
 
@@ -66,13 +100,13 @@ opacity: 0.5;
 .tooltip {
     position: relative;
     display: inline-block;
+		color: black;
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: white;
-    color: #blue;
     text-align: center;
     border-radius: 6px;
 		border: 2px solid blue;
@@ -109,11 +143,18 @@ li{
 
 .topbar {
 	background: linear-gradient(black, gray);
-	background-image: url("bar.png");
-	margin: 15px;
-	border radius: 6px;
+	margin: 0px;
+	border radius: 6px solid #FFF;
+	color: #A0A0A0;
+}
+.topbar li a {
+	text-decoration: none;
 }
 
 li:hover{
 	background-color: #FFFFAA;
+}
+
+li a {
+	text-decoration: none;
 }
