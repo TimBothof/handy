@@ -100,23 +100,24 @@ opacity: 0.5;
 .tooltip {
     position: relative;
     display: inline-block;
-		color: black;
+		background-color: white;
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
-    background-color: white;
+    width: 180px;
+		background-color: white;
     text-align: center;
     border-radius: 6px;
 		border: 2px solid blue;
-    padding: 5px 0;
     position: absolute;
-    z-index: 1;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
+		background-color: white;
 }
+
+
 
 ul {
 	visibility: hidden;
@@ -133,28 +134,53 @@ ul {
 #toolbox:hover ul{
 	visibility: visible;
 }
-li{
+#work {
 	display: block;
 	padding: 10px;
 	border: 2px solid black;
 	width: 100px;
 	text-align: center;
+	color: black;
 }
 
-.topbar {
+nav {
 	background: linear-gradient(black, gray);
 	margin: 0px;
 	border radius: 6px solid #FFF;
 	color: #A0A0A0;
+	width: 950px;
+	margin: auto;
+	padding: 6px;
+
+
 }
-.topbar li a {
+#bar {
+	padding: 5px;
+	list-style: none;
+	display: inline;
+	float: center;
 	text-decoration: none;
 }
 
-li:hover{
+nav:hover{
+		background: linear-gradient(#F0F0F0,#F0F0F0);
+	  font-weight: bold;
+}
+nav li a {
+	text-decoration: none;
+}
+
+#work:hover{
 	background-color: #FFFFAA;
+	color: black;
 }
 
-li a {
+#work a {
 	text-decoration: none;
+}
+nav a{
+	color: grey;
+}
+nav a:hover{
+	color: black;
 }
